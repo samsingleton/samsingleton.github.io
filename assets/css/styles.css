@@ -1,3 +1,15 @@
+:root:before {
+  content: url(https://media.giphy.com/media/7NXoMWGMhlijE3oS4u/giphy.gif)
+           url(https://media.giphy.com/media/iOyEBrLm1U0sybC7Dk/giphy.gif)
+           url(https://media.giphy.com/media/7JgrszZvhn3SUpZseB/giphy.gif)
+           url(https://media.giphy.com/media/FPhMkJSd8cVks1WTOL/giphy.gif)
+           url(https://media.giphy.com/media/88i7tnSi89bhDtMo9O/giphy.gif)
+           url(https://media.giphy.com/media/LwBT4te6wT5Wmazuv2/giphy.gif);
+  visibility: hidden;
+  position: absolute;
+  left: -999em;
+}
+
 .navbar-light .navbar-toggler {
   color:rgba(0,0,0,.5);
   border-color:rgba(0,0,0,0);
