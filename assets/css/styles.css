@@ -31,6 +31,7 @@
   position:relative;
 }
 
+
 @media (max-width: 768px) {
   .head-text {
     padding:0px 10% 0px 10%;
@@ -118,6 +119,23 @@ body {
   }
 }
 
+@media (max-width: 750px) {
+    .desktop{
+        display: none;
+    }
+}
+    @media (min-width: 750px) {
+        .mobile{
+            display: none;
+        }
+}
+
+}
+.shapes{
+    position: absolute;
+    width: 100%;
+}
+
 .video-toggles:hover {
   color:#212529;
   transition:0.15s ease-out;
@@ -174,6 +192,5 @@ a:hover{
     color: rgba(0,0,0,1);
     text-decoration: none;
 }
-
 
 
